@@ -8,7 +8,7 @@
         strNamaHari(3) = "Rabu"
         strNamaHari(4) = "Khamis"
         strNamaHari(5) = "Jumaat"
-        strNamaHari(6) = "Sabtu"
+        strNamaHari(6) = "Sunday"
         x = 0
         Array.Sort(strNamaHari)
 
