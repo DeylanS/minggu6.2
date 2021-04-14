@@ -25,6 +25,7 @@ Partial Class Form1
         Me.lstHari = New System.Windows.Forms.ListBox()
         Me.btnHari = New System.Windows.Forms.Button()
         Me.lblName = New System.Windows.Forms.Label()
+        Me.btnForm2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lstHari
@@ -54,11 +55,21 @@ Partial Class Form1
         Me.lblName.TabIndex = 5
         Me.lblName.Text = "deylan"
         '
+        'btnForm2
+        '
+        Me.btnForm2.Location = New System.Drawing.Point(368, 327)
+        Me.btnForm2.Name = "btnForm2"
+        Me.btnForm2.Size = New System.Drawing.Size(75, 23)
+        Me.btnForm2.TabIndex = 6
+        Me.btnForm2.Text = "Button"
+        Me.btnForm2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnForm2)
         Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.btnHari)
         Me.Controls.Add(Me.lstHari)
@@ -72,4 +83,5 @@ Partial Class Form1
     Friend WithEvents lstHari As ListBox
     Friend WithEvents btnHari As Button
     Friend WithEvents lblName As Label
+    Friend WithEvents btnForm2 As Button
 End Class
