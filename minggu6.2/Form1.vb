@@ -16,4 +16,8 @@
             lstHari.Items.Add(strNamaHari(x))
         Next
     End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles lblName.Click
+
+    End Sub
 End Class

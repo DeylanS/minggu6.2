@@ -24,6 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.lstHari = New System.Windows.Forms.ListBox()
         Me.btnHari = New System.Windows.Forms.Button()
+        Me.lblName = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lstHari
@@ -44,19 +45,31 @@ Partial Class Form1
         Me.btnHari.Text = "Papar"
         Me.btnHari.UseVisualStyleBackColor = True
         '
+        'lblName
+        '
+        Me.lblName.AutoSize = True
+        Me.lblName.Location = New System.Drawing.Point(750, 428)
+        Me.lblName.Name = "lblName"
+        Me.lblName.Size = New System.Drawing.Size(38, 13)
+        Me.lblName.TabIndex = 5
+        Me.lblName.Text = "deylan"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.btnHari)
         Me.Controls.Add(Me.lstHari)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents lstHari As ListBox
     Friend WithEvents btnHari As Button
+    Friend WithEvents lblName As Label
 End Class
